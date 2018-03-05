@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/build/build",
+    "pages/visit_log/visit_log",
+    "pages/launch/launch"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#061123",
+    "navigationBarTitleText": "人际航行",
+    "navigationBarTextStyle": "white"
+  }
+}

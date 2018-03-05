@@ -1,0 +1,41 @@
+<view class='container'>
+  <view class='container-content'>
+
+    <view class='airship'>
+      <view class='airship-imag'>
+        <image mode='aspectFit'
+             src='/image/space.png'></image>
+      </view>
+      <view class='dream'>
+        母星，我已做好升空的准备了，作为文明交流的使者，我需要携带母星的信息传递给我所抵达的每一个星球，请母星装载好所需要的文字和图片信息吧，我要像先辈旅行者号那样勇往直前探索人际间的未知。
+        </view>
+     </view>
+
+    <view class='content-input'>
+
+      <view class='container-info'>
+        <view class='text-info'>
+          <textarea placeholder="文本信息" placeholder-style="color:#D4ECDB"/>
+        </view>
+        <view class='image-info'>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+          <view><image src='/image/add-image.png'></image></view>
+        </view>
+      </view>
+
+      <view class='build'>
+        <view>装载信息</view>
+      </view>
+    
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,32 @@
+<view class='container'>
+  <view class='container-content'>
+
+    <view class='airship'>
+      <view class='airship-imag'>
+        <image mode='aspectFit'
+             src='/image/space.png'></image>
+      </view>
+      <view class='dream'>母星，给我起个名字吧，我想去征服星辰大海</view>
+    </view>
+
+    <view class='content-input'>
+      <view class='name'>
+        <view class='username'>名字</view>
+        <input placeholder="旅行者"/>
+        <view class='tag'>号</view>
+      </view>
+
+      <view class='mather-land'>
+        <view class='username'>母星</view>
+        <input placeholder="地球"/>
+        <view class='tag'>星</view>
+      </view>
+
+      <view class='build'>
+        <view>建造</view>
+      </view>
+    
+    </view>
+
+  </view>
+</view>

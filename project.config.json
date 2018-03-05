@@ -1,0 +1,47 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.7.3",
+	"appid": "wx03343e1206173599",
+	"projectname": "%E4%BA%BA%E9%99%85%E8%88%AA%E8%A1%8C",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "发射飞船",
+					"pathName": "pages/launch/launch",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "建造飞船",
+					"pathName": "pages/build/build",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "航行日志",
+					"pathName": "pages/visit_log/visit_log",
+					"query": ""
+				}
+			]
+		}
+	}
+}

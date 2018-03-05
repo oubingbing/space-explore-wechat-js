@@ -1,0 +1,58 @@
+<view class="container">
+
+  <!--<view class='tips'>
+    <view class='tips-content'>
+      想知道你的人际关系能达到一个什么样的深度吗
+    </view>
+    <view class='tips-content'>
+      发射一艘人际飞船来探测一下吧
+    </view>
+  </view>-->
+
+  <scroll-view scroll-y class='ship-container'>
+      <view class='ship-info'>
+        <view class='operate'>
+          <view class='fire' bindtap='launch'>发射飞船</view>
+          <view class='log' bindtap='visitLog'>航行日志</view>
+        </view>
+        <view class='main-info'>
+          <view class='ship-image'>
+          <image mode='aspectFit'
+                 src='/image/space.png'></image>
+          </view>
+          <view class='report-info'>
+            母星，我抵达了太阳系的地球星，这里是个美丽的蓝色星球
+          </view>
+        </view>
+      </view>
+
+      <view class='ship-info'>
+        <view class='operate'>
+          <view class='fire' bindtap='launch'>允许飞离</view>
+          <view class='log'>航行日志</view>
+        </view>
+        <view class='main-info'>
+          <view class='ship-image'>
+          <image mode='aspectFit'
+                 src='/image/space.png'></image>
+          </view>
+          <view class='report-info'>
+            您好，未知的行星，我已经抵达这颗行星很久了，请帮帮我让我重回茫茫宇宙，探索人际间未知的领域吧。
+          </view>
+        </view>
+      </view>
+  
+  </scroll-view>
+
+  <view class='footer'>
+    <view class='launch-airship'
+          bindtap='launchShip'>
+      <view class='launch'>建造飞船</view>
+    </view>
+    <view class='visit-record'>
+      <view class='record'>人际飞船</view>
+    </view>
+
+  </view>
+
+</view>

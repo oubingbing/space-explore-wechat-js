@@ -1,0 +1,82 @@
+<view class='container'>
+    <scroll-view scroll-y class='ship-container'>
+
+      <view class='log-item'>
+        <view class='item-left'>
+          <view class='date'>2018/1/1</view>
+          <view class='avatar-image'>
+            <image src='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLfibIwL69rkQFg61JCOhjZhAgAxlG4cLGKkl0XsUoMyItJDFHdlCukicog5fNq9z5XhauVuicdVXEDg/0'></image>
+          </view>
+        </view>
+        <view class='item-right'>
+          <view class='right-container'>
+            <view class='log-info'>
+            苏岩礁位于中国东海，并处在中韩专属经济区重叠区域。中国外交部曾多次表示，苏岩礁是孤立的水下暗礁，不是领土，中韩之间就此不存在领土争议，这是中韩双方的共识。
+          </view>
+          <view class='image-info'>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+          </view>
+          </view>
+        </view>
+      </view>
+
+      <view class='log-item'>
+        <view class='item-left'>
+          <view class='avatar-image'>
+            <image src='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLfibIwL69rkQFg61JCOhjZhAgAxlG4cLGKkl0XsUoMyItJDFHdlCukicog5fNq9z5XhauVuicdVXEDg/0'></image>
+          </view>
+        </view>
+        <view class='item-right'>
+          <view class='right-container'>
+            <view class='log-info'>
+            苏岩礁位于中国东海，并处在中韩专属经济区重叠区域。中国外交部曾多次表示，苏岩礁是孤立的水下暗礁，不是领土，中韩之间就此不存在领土争议，这是中韩双方的共识。
+          </view>
+          <view>
+            <view>
+              图片
+            </view>
+          </view>
+          </view>
+        </view>
+      </view>
+
+
+      <view class='log-item'>
+        <view class='item-left'>
+          <view class='date'>2018/1/1</view>
+          <view class='avatar-image'>
+            <image src='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLfibIwL69rkQFg61JCOhjZhAgAxlG4cLGKkl0XsUoMyItJDFHdlCukicog5fNq9z5XhauVuicdVXEDg/0'></image>
+          </view>
+        </view>
+        <view class='item-right'>
+          <view class='right-container'>
+            <view class='log-info'>
+            苏岩礁位于中国东海，并处在中韩专属经济区重叠区域。中国外交部曾多次表示，苏岩礁是孤立的水下暗礁，不是领土，中韩之间就此不存在领土争议，这是中韩双方的共识。
+          </view>
+          <view class='image-info'>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+              <view><image src='/image/add-image.png'></image></view>
+          </view>
+          </view>
+        </view>
+      </view>
+
+    </scroll-view>
+</view>
