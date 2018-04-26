@@ -102,6 +102,17 @@ page{
   flex-direction: row;
 }
 
+.ship-info .other-operate{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+  color: #009FAB;
+  justify-content: space-around;
+  border-top-style:solid;
+  border-width:1rpx;
+  border-color: #009FAB;
+}
+
 .main-info .ship-image{
   width: 30%;
   display: flex;

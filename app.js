@@ -6,7 +6,7 @@ App({
 
     //设置基本接口全局变量
     //this.globalData.apiUrl = 'https://www.kucaroom.com/api/wechat';
-    this.globalData.apiUrl = 'http://school.dev/api/space';
+    this.globalData.apiUrl = 'http://space.dev/api/wechat';
 
     //七牛图片外链域名
     this.globalData.imageUrl = 'http://image.kucaroom.com/';
@@ -19,8 +19,6 @@ App({
     } else {
       console.log('token=' + token);
     }
-
-    console.log('token=' + token);
 
   },
 
@@ -36,9 +34,8 @@ App({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
         console.log(res);
-
         wx.request({
-          url: this.globalData.apiUrl + '/space_auth/login?type=spaceExplore',
+          url: this.globalData.apiUrl + '/auth/login?type=weChat', //仅为示例，并非真实的接口地址
           header: {
             'content-type': 'application/json' // 默认值
           },
@@ -64,15 +61,11 @@ App({
    */
   getToken: function (_this, openId, callback = null) {
 
-    console.log('获取token');
+    console.log('function getToen');
 
     // 获取用户信息
     wx.getSetting({
       success: res => {
-
-        console.log(res);
-        console.log('获取tokening.....');
-
         if (res.authSetting['scope.userInfo']) {
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
           wx.getUserInfo({
@@ -83,7 +76,7 @@ App({
               console.log('用户openid' + openId);
 
               wx.request({
-                url: _this.globalData.apiUrl + '/space_auth/token',
+                url: _this.globalData.apiUrl + '/auth/token',
                 header: {
                   'content-type': 'application/json'
                 },
@@ -106,7 +99,7 @@ App({
 
             }
           })
-        }else{
+        } else {
           console.log('未授权');
           wx.authorize({
             scope: 'scope.userInfo',
@@ -292,6 +285,15 @@ App({
   globalData: {
     userInfo: null,
     apiUrl: null,
+    color: '0aecc3',
+    imageUrl: '',
+    bgImage: '',
+    changeSchoolPost: false,
+    changeSchoolSale: false,
+    changeSchoolMatch: false
+    //  background-color: #F0F8FF;
+    //#73CB75
+    //E8E8E8
 
   }
 })

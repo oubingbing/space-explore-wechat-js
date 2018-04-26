@@ -12,17 +12,17 @@
     <view class='content-input'>
       <view class='name'>
         <view class='username'>名字</view>
-        <input placeholder="旅行者"/>
+        <input placeholder="旅行者" bindinput="getSpaceName"/>
         <view class='tag'>号</view>
       </view>
 
       <view class='mather-land'>
         <view class='username'>母星</view>
-        <input placeholder="地球"/>
+        <input placeholder="地球" bindinput="getMotherPlant"/>
         <view class='tag'>星</view>
       </view>
 
-      <view class='build'>
+      <view class='build' bindtap='create'>
         <view>建造</view>
       </view>
     

@@ -15,23 +15,25 @@
 
       <view class='container-info'>
         <view class='text-info'>
-          <textarea placeholder="文本信息" placeholder-style="color:#D4ECDB"/>
+          <textarea placeholder="hello world..." 
+                    placeholder-style="color:#D4ECDB"
+                    bindinput="getTextContent"/>
         </view>
         <view class='image-info'>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
-          <view><image src='/image/add-image.png'></image></view>
+          <view wx:for="{{imageArray}}" 
+                wx:key='{{imageArray}}'>
+            <image bindtap='previewImage' 
+                   id='{{item}}' 
+                   mode='aspectFill' 
+                   src='{{item}}'></image>
+          </view>
+          <view>
+            <image src='/image/add-image.png' bindtap='selectImage'></image>
+          </view>
         </view>
       </view>
 
-      <view class='build'>
+      <view class='build' bindtap='loadMessage'>
         <view>装载信息</view>
       </view>
     

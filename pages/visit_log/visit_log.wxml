@@ -1,6 +1,26 @@
 <view class='container'>
     <scroll-view scroll-y class='ship-container'>
 
+    <view class='log-item ship-item'>
+      <view class='ship-info' >
+        <view class='operate'>
+          <view class='fire' 
+                bindtap='launch'
+                data-ship="1">允许离港</view>
+          <view class='log' bindtap='visitLog'>航行日志</view>
+        </view>
+        <view class='main-info'>
+          <view class='ship-image'>
+          <image mode='aspectFit'
+                 src='/image/space.png'></image>
+          </view>
+          <view class='report-info'>
+            <view>您好，我是人际飞船好奇号来自天狼星，母星派我来探索浩瀚的人际宇宙，希望我能携带每一个造访过的星球信息，成为人际文明的传播者，希望您能允许我离港，帮助我重回浩瀚的人际宇宙。</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
       <view class='log-item'>
         <view class='item-left'>
           <view class='date'>2018/1/1</view>
